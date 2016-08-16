@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		528681031D5E6527001EC61F /* HRMClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528681021D5E6527001EC61F /* HRMClass.swift */; };
+		529129381D5EFD5900B9DE11 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529129371D5EFD5900B9DE11 /* KDCircularProgress.swift */; };
 		52EEF5F91D5E4D2A008D6E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEF5F81D5E4D2A008D6E0D /* AppDelegate.swift */; };
 		52EEF5FB1D5E4D2A008D6E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEF5FA1D5E4D2A008D6E0D /* ViewController.swift */; };
 		52EEF5FE1D5E4D2A008D6E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EEF5FC1D5E4D2A008D6E0D /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		52EEF6031D5E4D2A008D6E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EEF6011D5E4D2A008D6E0D /* LaunchScreen.storyboard */; };
 		52EEF60E1D5E4D2A008D6E0D /* HeartViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEF60D1D5E4D2A008D6E0D /* HeartViewTests.swift */; };
 		52EEF6191D5E4D2A008D6E0D /* HeartViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEF6181D5E4D2A008D6E0D /* HeartViewUITests.swift */; };
+		52EEF62B1D5E53B6008D6E0D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EEF62A1D5E53B6008D6E0D /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		528681021D5E6527001EC61F /* HRMClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRMClass.swift; sourceTree = "<group>"; };
+		529129371D5EFD5900B9DE11 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		52EEF5F51D5E4D2A008D6E0D /* HeartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EEF5F81D5E4D2A008D6E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EEF5FA1D5E4D2A008D6E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		52EEF6141D5E4D2A008D6E0D /* HeartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EEF6181D5E4D2A008D6E0D /* HeartViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartViewUITests.swift; sourceTree = "<group>"; };
 		52EEF61A1D5E4D2A008D6E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EEF62A1D5E53B6008D6E0D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EEF62B1D5E53B6008D6E0D /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +104,11 @@
 		52EEF5F71D5E4D2A008D6E0D /* HeartView */ = {
 			isa = PBXGroup;
 			children = (
+				529129371D5EFD5900B9DE11 /* KDCircularProgress.swift */,
+				52EEF62A1D5E53B6008D6E0D /* CoreBluetooth.framework */,
 				52EEF5F81D5E4D2A008D6E0D /* AppDelegate.swift */,
 				52EEF5FA1D5E4D2A008D6E0D /* ViewController.swift */,
+				528681021D5E6527001EC61F /* HRMClass.swift */,
 				52EEF5FC1D5E4D2A008D6E0D /* Main.storyboard */,
 				52EEF5FF1D5E4D2A008D6E0D /* Assets.xcassets */,
 				52EEF6011D5E4D2A008D6E0D /* LaunchScreen.storyboard */,
@@ -193,6 +203,7 @@
 				TargetAttributes = {
 					52EEF5F41D5E4D2A008D6E0D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HP38GJT4EF;
 					};
 					52EEF6081D5E4D2A008D6E0D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529129381D5EFD5900B9DE11 /* KDCircularProgress.swift in Sources */,
 				52EEF5FB1D5E4D2A008D6E0D /* ViewController.swift in Sources */,
+				528681031D5E6527001EC61F /* HRMClass.swift in Sources */,
 				52EEF5F91D5E4D2A008D6E0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HeartView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.protodesign.HeartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HeartView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.protodesign.HeartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +503,7 @@
 				52EEF61F1D5E4D2A008D6E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52EEF6201D5E4D2A008D6E0D /* Build configuration list for PBXNativeTarget "HeartViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +512,7 @@
 				52EEF6221D5E4D2A008D6E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52EEF6231D5E4D2A008D6E0D /* Build configuration list for PBXNativeTarget "HeartViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +521,7 @@
 				52EEF6251D5E4D2A008D6E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
